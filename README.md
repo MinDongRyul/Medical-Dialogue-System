@@ -6,7 +6,7 @@ If you find this dataset useful, please cite:
 
     @article{chen2020meddiag,
       title={MedDialog: a large-scale medical dialogue dataset},
-      author={Chen, Shu and Ju, Zeqian and Dong, Xiangyu and Fang, Hongchao and Wang, Sicheng and Yang, Yue and Zeng, Jiaqi                 and Zhang, Ruisi and Zhang, Ruoyu and Zhou, Meng and Zhu, Penghui and Xie, Pengtao},
+      author={Chen, Shu and Ju, Zeqian and Dong, Xiangyu and Fang, Hongchao and Wang, Sicheng and Yang, Yue and Zeng, Jiaqi and Zhang, Ruisi and Zhang, Ruoyu and Zhou, Meng and Zhu, Penghui and Xie, Pengtao},
       journal={https://github.com/UCSD-AI4H/Medical-Dialogue-System}, 
       year={2020}
     }
