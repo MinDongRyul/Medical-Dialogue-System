@@ -1,6 +1,6 @@
 # Medical-Dialogue-System
 
-This dataset contains conversations (in Chinese) between doctors and patients. It has 1.1 million dialogues and 4 million utterances. The data is continuously growing and more dialogues will be added. The raw dialogues are from haodf.com.  All copyrights of the data belong to haodf.com.
+The MedDialog dataset contains conversations (in Chinese) between doctors and patients. It has 1.1 million dialogues and 4 million utterances. The data is continuously growing and more dialogues will be added. The raw dialogues are from haodf.com.  All copyrights of the data belong to haodf.com.
 
 If you find this dataset useful, please cite:
 
