@@ -4,6 +4,8 @@ The MedDialog dataset contains conversations (in Chinese) between doctors and pa
 
 The data can be downloaded from https://drive.google.com/file/d/13-PqKtUZZyV7ElnCAV8Sz0HALnBJxzvt/view?usp=sharing
 
+The paper draft is available [here](https://github.com/pengtaoxie/pengtaoxie.github.io/blob/master/meddiag.pdf)
+
 If you find this dataset useful, please cite:
 
     @article{chen2020meddiag,
