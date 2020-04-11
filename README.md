@@ -2,7 +2,7 @@
 
 The MedDialog dataset contains conversations (in Chinese) between doctors and patients. It has 1.1 million dialogues and 4 million utterances. The data is continuously growing and more dialogues will be added. The raw dialogues are from haodf.com.  All copyrights of the data belong to haodf.com.
 
-The data can be downloaded from https://drive.google.com/file/d/13-PqKtUZZyV7ElnCAV8Sz0HALnBJxzvt/view?usp=sharing
+The data can be downloaded from https://drive.google.com/file/d/1lJsCKtOhnIktmblmA2Dkl20KniVQqDDO/view?usp=sharing
 
 The paper draft is available [here](https://github.com/pengtaoxie/pengtaoxie.github.io/blob/master/meddiag.pdf)
 
