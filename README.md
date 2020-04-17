@@ -4,13 +4,13 @@ The MedDialog dataset contains conversations (in Chinese) between doctors and pa
 
 The data can be downloaded from https://drive.google.com/drive/folders/1r09_i8nJ9c1nliXVGXwSqRYqklcHd9e2?usp=sharing
 
-The paper draft is available [here](https://github.com/pengtaoxie/pengtaoxie.github.io/blob/master/meddiag.pdf)
+Details of the dataset are described in this [preprint](https://arxiv.org/abs/2004.03329)
 
 If you find this dataset useful, please cite:
 
     @article{chen2020meddiag,
       title={MedDialog: a large-scale medical dialogue dataset},
       author={Chen, Shu and Ju, Zeqian and Dong, Xiangyu and Fang, Hongchao and Wang, Sicheng and Yang, Yue and Zeng, Jiaqi and Zhang, Ruisi and Zhang, Ruoyu and Zhou, Meng and Zhu, Penghui and Xie, Pengtao},
-      journal={https://github.com/UCSD-AI4H/Medical-Dialogue-System}, 
+      journal={arXiv preprint arXiv:2004.03329}, 
       year={2020}
     }
