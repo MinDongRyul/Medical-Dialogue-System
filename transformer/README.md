@@ -11,3 +11,11 @@ Torch==1.4.0
 Python==3.7.0 (or above)
 Transformers==2.8.0 (or above)
 NLTK==3.5.0
+
+
+
+
+### Pre-trained models
+We provide the pre-trained models here:
+
+**Transformer trained on MedDialog** ([transformer pretrained model.pth](https://drive.google.com/file/d/1C8K7fAHzR2eSqZMc9wugbTG-MMA_SUlj/view?usp=sharing))
