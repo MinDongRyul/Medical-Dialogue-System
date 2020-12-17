@@ -1,4 +1,4 @@
-#### How to Run
+### How to Run
 
 1. When training, run `gpt_train.py`. Notice that, if you run the training file first time, please use `python gpt_train.py --raw` to tokenize.
 2. When calculating the perplexity, run `gpt2_ppl.py`.
@@ -22,7 +22,7 @@ When using pretrain, please download the pretrain model and put it under the fil
 
 
 
-#### Requirements
+### Requirements
 transformers==2.1.1
 pytorch==1.4.0
 sklearn
@@ -32,7 +32,12 @@ scipy==1.2.1
 
 
 
-#### Acknowledge
+### Acknowledge
 
 This GPT2 model code have developed based on the [GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat) and [DialoGPT](https://github.com/microsoft/DialoGPT).
+
+### Pre-trained models
+We provide the pre-trained models here:
+
+**DialoGPT trained on MedDialog** ([GPT2 pretrained model](https://drive.google.com/file/d/1SMoNAptrdsomwHcJBkH-mkt-iri5LLnR/view?usp=sharing))
 
