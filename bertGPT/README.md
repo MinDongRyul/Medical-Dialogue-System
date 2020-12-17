@@ -1,4 +1,4 @@
-#### How to Run
+### How to Run
 
 1. As for the dataset, you can get access to the raw dialogue dataset by download from [here](https://drive.google.com/file/d/1hRZdfvE8I6bevPjtvZVM6R109cOYRjVq/view?usp=sharing).
   In addition, we clean and split the raw dialogues, and the result can be download from [train_data.json](https://drive.google.com/file/d/1j2r6tLn3hRpt6ue7RZQv4Y4s9rB-VQ0J/view?usp=sharing), [validate_data.json](https://drive.google.com/file/d/1mxYRm8jwU3J2ztE495QXV4R3WFy3ESsm/view?usp=sharing) and [test_data.json](https://drive.google.com/file/d/1yAlR35gIrloXU6Rx4wuEuKQmXDTpczpB/view?usp=sharing).
@@ -27,7 +27,7 @@ again the instruction shown by 3-4.
 
 
 
-#### Requirements
+### Requirements
 chinese-gpt==0.1.3
 pytorch==1.4.0
 fire
@@ -38,7 +38,7 @@ pytorch-pretrained-bert==0.6.2
 nlt
 
 
-#### Pretrained models
+### Pretrained models
 We provide the pre-trained models here:
 
 **BERT-GPT trained on MedDialog** ([bertGPT pretrained model.pth7](https://drive.google.com/file/d/1alyU4wEClpjj2-kGl45xxUal0dHZGZhI/view?usp=sharing))
