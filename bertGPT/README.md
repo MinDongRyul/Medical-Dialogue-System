@@ -41,4 +41,4 @@ nlt
 ### Pre-trained models
 We provide the pre-trained models here:
 
-**BERT-GPT trained on MedDialog** ([bertGPT pretrained model.pth7](https://drive.google.com/file/d/1alyU4wEClpjj2-kGl45xxUal0dHZGZhI/view?usp=sharing))
+**BERT-GPT trained on MedDialog** ([bertGPT pretrained model.pth](https://drive.google.com/file/d/1alyU4wEClpjj2-kGl45xxUal0dHZGZhI/view?usp=sharing))
