@@ -110,9 +110,9 @@ def train_model(
     update_count = 0
     f = open("valid_loss.txt", "w")
     start = time.time()
-    print('훈련 시작....')
+    print('start train....')
     for epoch in range(epochs):
-        # 훈련 단계
+        # train step
         model.train()
         losses = 0
         times = 0
@@ -140,19 +140,19 @@ def train_model(
                 scheduler.step()
                 optimizer.zero_grad()
         end = time.time()
-        print('-'*20 + '에포크' + str(epoch) + '-'*20)
-        print('시간:' + str(end - start))
-        print('손실:' + str(losses / times))
+        print('-'*20 + 'epoch' + str(epoch) + '-'*20)
+        print('time:' + str(end - start))
+        print('loss:' + str(losses / times))
         start = end
 
-        # 검증 단계
+        # val step
         model.eval()
 
         perplexity = 0
         temp_loss = 0
         batch_count = 0
-        print('퍼플렉서티 계산 시작....')
-
+        
+        print('perplexity 계산 시작....')
         with torch.no_grad():
             for batch in tqdm(val_dataloader):
                 batch = [item.to(device) for item in batch]
@@ -171,12 +171,12 @@ def train_model(
 
                 batch_count += 1
 
-        print('검증 퍼플렉서티:' + str(perplexity / batch_count))
-        print("검증 손실:" + str(temp_loss / batch_count))
+        print('val perplexity:' + str(perplexity / batch_count))
+        print("val loss:" + str(temp_loss / batch_count))
         
-        f.write('-'*20 + f"에포크 {epoch}" + '-'*20 + '\n')
-        f.write(f"퍼플렉서티: {str(perplexity / batch_count)}" + "\n")
-        f.write(f"손실: {str(temp_loss / batch_count)}" + "\n\n")
+        f.write('-'*20 + f"epoch {epoch}" + '-'*20 + '\n')
+        f.write(f"perplexity: {str(perplexity / batch_count)}" + "\n")
+        f.write(f"loss: {str(temp_loss / batch_count)}" + "\n\n")
         
         direct_path = os.path.join(os.path.abspath('.'), load_dir)
         if not os.path.exists(direct_path):
